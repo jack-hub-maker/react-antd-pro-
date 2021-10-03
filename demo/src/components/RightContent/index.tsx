@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: 
+ * @version: 1.0
+ * @Author: xingyingjie
+ * @Date: 2021-10-03 22:44:26
+ * @LastEditors: xingyingjie
+ * @LastEditTime: 2021-10-03 23:30:43
+ */
 import { Space } from 'antd';
 import { QuestionCircleOutlined } from '@ant-design/icons';
 import React from 'react';
@@ -23,7 +31,7 @@ const GlobalHeaderRight: React.FC = () => {
   }
   return (
     <Space className={className}>
-      <HeaderSearch
+      {/* <HeaderSearch
         className={`${styles.action} ${styles.search}`}
         placeholder="站内搜索"
         defaultValue="umi ui"
@@ -45,15 +53,15 @@ const GlobalHeaderRight: React.FC = () => {
         // onSearch={value => {
         //   console.log('input', value);
         // }}
-      />
-      <span
+      /> */}
+      {/* <span
         className={styles.action}
         onClick={() => {
           window.open('https://pro.ant.design/docs/getting-started');
         }}
       >
         <QuestionCircleOutlined />
-      </span>
+      </span> */}
       <Avatar />
       <SelectLang className={styles.action} />
     </Space>

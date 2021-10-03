@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: 
+ * @version: 1.0
+ * @Author: xingyingjie
+ * @Date: 2021-10-03 22:44:26
+ * @LastEditors: xingyingjie
+ * @LastEditTime: 2021-10-03 22:51:45
+ */
 import type { Settings as LayoutSettings } from '@ant-design/pro-layout';
 import { PageLoading } from '@ant-design/pro-layout';
 import type { RunTimeLayoutConfig } from 'umi';
@@ -69,10 +77,10 @@ export const layout: RunTimeLayoutConfig = ({ initialState }) => {
             <LinkOutlined />
             <span>OpenAPI 文档</span>
           </Link>,
-          <Link to="/~docs">
-            <BookOutlined />
-            <span>业务组件文档</span>
-          </Link>,
+          // <Link to="/~docs">
+          //   <BookOutlined />
+          //   <span>业务组件文档</span>
+          // </Link>,
         ]
       : [],
     menuHeaderRender: undefined,
