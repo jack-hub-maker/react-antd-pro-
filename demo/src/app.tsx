@@ -4,7 +4,7 @@
  * @Author: xingyingjie
  * @Date: 2021-10-03 22:44:26
  * @LastEditors: xingyingjie
- * @LastEditTime: 2021-10-03 22:51:45
+ * @LastEditTime: 2021-10-08 10:39:43
  */
 import type { Settings as LayoutSettings } from '@ant-design/pro-layout';
 import { PageLoading } from '@ant-design/pro-layout';
@@ -73,10 +73,10 @@ export const layout: RunTimeLayoutConfig = ({ initialState }) => {
     },
     links: isDev
       ? [
-          <Link to="/umi/plugin/openapi" target="_blank">
-            <LinkOutlined />
-            <span>OpenAPI 文档</span>
-          </Link>,
+          // <Link to="/umi/plugin/openapi" target="_blank">
+          //   <LinkOutlined />
+          //   <span>OpenAPI 文档</span>
+          // </Link>,
           // <Link to="/~docs">
           //   <BookOutlined />
           //   <span>业务组件文档</span>

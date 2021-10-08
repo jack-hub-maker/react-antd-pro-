@@ -4,7 +4,7 @@
  * @Author: xingyingjie
  * @Date: 2021-10-03 22:44:26
  * @LastEditors: xingyingjie
- * @LastEditTime: 2021-10-03 23:38:11
+ * @LastEditTime: 2021-10-08 10:00:22
  */
 export default {
   'pages.layouts.userLayout.title': 'Ant Design 是西湖区最具影响力的 Web 设计规范',
@@ -65,7 +65,7 @@ export default {
   'pages.searchTable.config': '配置',
   'pages.searchTable.subscribeAlert': '订阅警报',
   'pages.searchTable.title': '查询表格',
-  'pages.xyj.index': '小杰测试页面',
+  'pages.xyj.index': '测试页面',
   'pages.searchTable.new': '新建',
   'pages.searchTable.chosen': '已选择',
   'pages.searchTable.item': '项',

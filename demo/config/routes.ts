@@ -4,7 +4,7 @@
  * @Author: xingyingjie
  * @Date: 2021-10-03 22:44:26
  * @LastEditors: xingyingjie
- * @LastEditTime: 2021-10-03 23:36:53
+ * @LastEditTime: 2021-10-08 10:42:48
  */
 export default [
   {
@@ -29,7 +29,7 @@ export default [
   {
     path: '/welcome',
     name: 'welcome',
-    icon: 'smile',
+    icon: 'HomeOutlined',
     component: './Welcome',
   },
   {
@@ -67,15 +67,15 @@ export default [
       path: '/account',
       name: 'account',
       icon: 'UserOutlined',
-      component: './account',
-      // routes: [
-      //   {
-      //     // 个人信息
-      //     path: '/account/personalInfo',
-      //     name: 'personalInfo',
-      //     component: '@/pages/Account/PersonalInfo/PersonalInfo.tsx',
-      //   },
-      // ],
+      hideInMenu:true,
+      routes: [
+        {
+          // 个人信息
+          path: '/account/personalInfo',
+          name: 'personalInfo',
+          component: '@/pages/Account/PersonalInfo.tsx',
+        },
+      ],
     },
   {
     path: '/',
